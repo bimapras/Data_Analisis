@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(style='dark')
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('./dashboard/data.csv')
 categorical_columns = ['season', 'yr', 'mnth', 'holiday', 'weekday', 'workingday', 'weathersit']
 numerical_columns = ['temp', 'atemp', 'hum', 'windspeed', 'casual', 'registered', 'cnt']
 df = df.replace({'season': {1: 'Spring', 2: 'Summer', 3: 'Fall', 4: 'Winter'}})
