@@ -2,15 +2,15 @@
 [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
 
 # Instalation
-1. Clone ths repository to run locally
+1. Clone this repository to run locally
 ```
-cd
+git clone https://github.com/bimapras/Data_Analisis.git
 ```
 2. Install the requirement on command prompt using pip
 ```
-sd
+pip intall -r requirements.txt
 ```   
-3. Run dashboard
+3. Run dashboard using terminal
 ```
-as
+streamlit run ./dashboard/dashboard.py
 ```
