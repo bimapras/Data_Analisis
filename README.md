@@ -1,7 +1,7 @@
 # Data Resources
 [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
 
-# Instalation
+# Installation
 1. Clone this repository to run locally
 ```
 git clone https://github.com/bimapras/Data_Analisis.git
